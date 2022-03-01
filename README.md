@@ -1,4 +1,24 @@
 # LumiaShop
+![GitHub repo size](https://img.shields.io/github/repo-size/abdeljalil-salhi/LumiaShop?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/abdeljalil-salhi/LumiaShop?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/abdeljalil-salhi/LumiaShop?style=for-the-badge)
+
+### 📫 Contributing to this project:
+<table>
+  <tr>
+    <td width="30px"></td>
+    <td align="center">
+      <a href="https://github.com/abdeljalil-salhi">
+        <img src="https://avatars.githubusercontent.com/u/65598953" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      </a>
+      <sub>
+        <b>Abdel</b>
+      </sub>
+    </td>
+    <td width="30px"></td>
+  </tr>
+</table>
+
 ## Overview
 ### *Home page (top sellers slider, featured products)*
 ![image](https://user-images.githubusercontent.com/65598953/154868931-e4610312-9b4c-4339-93fb-3878bbd5830e.png)
