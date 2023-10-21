@@ -7,6 +7,7 @@ const data = {
       email: "admin@gmail.com",
       password: bcrypt.hashSync("123456", 8),
       isAdmin: true,
+      isVerified: true,
     },
     {
       name: "Tawab",
@@ -14,6 +15,14 @@ const data = {
       password: bcrypt.hashSync("123456", 8),
       isAdmin: false,
     },
+    {
+        name: "Lumia",
+        email: "lumia@gmail.com",
+        password: bcrypt.hashSync("123456", 8),
+        isAdmin: false,
+        isSeller: true,
+        isVerified: true,
+    }
   ],
   products: [
     {

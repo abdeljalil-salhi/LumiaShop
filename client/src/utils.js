@@ -47,5 +47,5 @@ export const ratings = [
 ];
 
 export const axiosInstance = Axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: "http://server:5000/",
 });

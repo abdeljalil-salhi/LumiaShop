@@ -1,5 +1,5 @@
 import http from "http";
-import { Server } from "socket.io";
+import SocketIO from "socket.io";
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
@@ -8,6 +8,8 @@ import productRouter from "./routers/productRouter.js";
 import userRouter from "./routers/userRouter.js";
 import orderRouter from "./routers/orderRouter.js";
 import uploadRouter from "./routers/uploadRouter.js";
+
+const { Server } = SocketIO;
 
 dotenv.config();
 
@@ -21,7 +23,7 @@ const users = [];
 mongoose
   .connect(
     process.env.MONGODB_URL ||
-      "mongodb+srv://admin:KshrTd0h2QN6bE4L@testdb.ul72e.mongodb.net/test",
+      "mongodb+srv://abdelisloading:DFvIze0fuKIsILMf@lumiashop.2csxvkg.mongodb.net/test?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
